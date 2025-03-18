@@ -68,7 +68,6 @@ void removeTask() {
     if (task_count == 0) {
         printf("No tasks to remove.\n");
         return;
-    }
     int index;
     printf("Enter task number to remove: ");
     scanf("%d", &index);
